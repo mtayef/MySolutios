@@ -3,11 +3,11 @@ package hackerRankSolutions;
 import java.util.Scanner;
 
 //day 4
-public class Person {
+public class Person2 {
 	private int age;
 	private static Scanner scan = new Scanner(System.in);
 	
-	public Person(int initialAge) {
+	public Person2(int initialAge) {
 		age = initialAge;
 		if (initialAge < 0) {
 			age = 0;
@@ -30,7 +30,7 @@ public class Person {
 	}
 	public static void main(String args[]) {
 		int n = scan.nextInt();
-		Person p = new Person(n);
+		Person2 p = new Person2(n);
 		p.amIOld();
 		scan.close();
 	}
